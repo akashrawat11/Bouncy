@@ -15,6 +15,7 @@ public class Menuscreen implements Screen {
     private Viewport menuviewport;
     private Texture menutexture,playbutton,exitbutton;
     private int highscore;
+    private int h;
 
     public Menuscreen(gamedemo game, int highscore){
         this.game = game;
